@@ -42,33 +42,41 @@ Create Apple/Microsoft/Google-level presentations with professional design, cons
 
 [View Documentation →](./skills/elite-powerpoint-designer/)
 
-## Using Skills from This Repository
+## Installation
 
-### Install Individual Skills
+### Quick Install (Global - Recommended)
 
-**Personal Installation (Available Across All Projects):**
+Install once, use everywhere:
+
 ```bash
-# Install from this repo
-cp -r skills/<skill-name> ~/.claude/skills/
+# Clone this repository
+git clone https://github.com/willem4130/claude-code-skills.git
+cd claude-code-skills
+
+# Install globally (works in all projects)
+cp -r skills/elite-powerpoint-designer ~/.claude/skills/
+
+# Verify installation
+ls ~/.claude/skills/elite-powerpoint-designer/
 ```
 
-**Project-Specific Installation (Shared via Git):**
+Done! The skill is now available in all your Claude Code sessions.
+
+### Alternative: Project-Specific Installation
+
+Install for a specific project (team sharing):
+
 ```bash
 # In your project directory
-cp -r /path/to/skills-playground/skills/<skill-name> .claude/skills/
-git add .claude/skills/<skill-name>
-git commit -m "Add <skill-name> skill"
+mkdir -p .claude/skills
+cp -r /path/to/claude-code-skills/skills/elite-powerpoint-designer .claude/skills/
+
+# Commit to git so team gets it
+git add .claude/skills/elite-powerpoint-designer
+git commit -m "Add elite PowerPoint designer skill"
 ```
 
-### Clone Entire Collection
-```bash
-# Clone to use as development workspace
-git clone https://github.com/YOUR-USERNAME/claude-code-skills-playground.git
-cd claude-code-skills-playground
-
-# Symlink to make all skills available globally
-ln -s $(pwd)/skills ~/.claude/skills-playground
-```
+**📖 See [INSTALLATION.md](./INSTALLATION.md) for detailed setup instructions and troubleshooting.**
 
 ## Developing Your Own Skills
 
