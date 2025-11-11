@@ -25,9 +25,22 @@ Skills are model-invoked capabilities that Claude autonomously uses based on con
 
 ## Available Skills
 
-### 🚧 In Development
+### ✅ Production Ready
 
-- **markdown-to-powerpoint** - Convert markdown/text to professionally styled PowerPoint presentations with consistent formatting
+#### **elite-powerpoint-designer** - World-Class Presentation Design
+Create Apple/Microsoft/Google-level presentations with professional design, consistent branding, and sophisticated animations.
+
+**Features:**
+- 5 professional brand styles (Tech Keynote, Corporate, Creative, Financial Elite, Startup Pitch)
+- Intelligent markdown-to-template mapping
+- Professional animation system with timing guidelines
+- Complete design systems (typography, colors, spacing, effects)
+- Content analyzer for automatic style detection
+- 25+ slide template mappings
+
+**Perfect for:** Product launches, investor pitches, business reports, keynotes, and any presentation requiring world-class design quality.
+
+[View Documentation →](./skills/elite-powerpoint-designer/)
 
 ## Using Skills from This Repository
 
